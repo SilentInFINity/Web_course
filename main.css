@@ -136,3 +136,22 @@
         min-height: 40px;
     }
 }
+
+@media screen and (max-width:500px) {
+
+    .card_p,
+    .card_m {
+        max-width: 200px;
+        max-height: 650px;
+        min-width: 180px;
+        min-height: 571px;
+    }
+    .java_image,
+    .js_image,
+    .python_image,
+    .ruby_image,
+    .c_plusplus_image {
+        min-width: 150px;
+        min-height: 40px;
+    }
+}
